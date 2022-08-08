@@ -1,7 +1,7 @@
 {
-  "homepage": "https://Cyanide-zero.github.io/my-portfolio",
   "name": "web-resume",
   "version": "0.1.0",
+  "homepage": "https://cyanide-zero.github.io/my-portfolio",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.3",

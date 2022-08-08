@@ -29,15 +29,18 @@ export default function Portfolio (){
             <h1 className={PortCSS.title}>Mobile Projects</h1>
             <p className={PortCSS.note}>*Please note that in this section, clicking a card will redirect you to the download page of the APK file.</p>
                 <div className={PortCSS.categories}>
-                    <a href="https://client-management-system.000webhostapp.com/" className={PortCSS.mobileCard}>
+                    <a href="https://exp-shell-app-assets.s3.us-west-1.amazonaws.com/android/%40cyanidezero/lalabaApp-7ccde6bc09524fd891ec4707766d136e-signed.apk" className={PortCSS.mobileCard}>
                         <img className={PortCSS.mobileCardImage} src={require('../assets/images/lalabaApp.jpg')}/>
                         <p className={PortCSS.cardName}>LalabaApp</p>
                     </a>
-                    <a href="https://client-management-system.000webhostapp.com/" className={PortCSS.mobileCard}>
-                        <img className={PortCSS.mobileCardImage} src={require('../assets/images/lalabaApp.jpg')}/>
-                        <p className={PortCSS.cardName}>E-bin</p>
+                    <a href="https://expo.dev/artifacts/df79f694-2769-4d10-83c4-7735be9ebea2" className={PortCSS.mobileCard}>
+                        <img className={PortCSS.mobileCardImage} src={require('../assets/images/ebin.jpg')}/>
+                        <p className={PortCSS.cardName}>E-bin App</p>
                     </a>
                 </div>
+                <p className={PortCSS.note}>
+                   TEKA LANG DI PA TO TAPOS HAHAHAHA 
+                </p>
 
         </div>
     )

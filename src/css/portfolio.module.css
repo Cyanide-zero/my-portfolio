@@ -50,6 +50,11 @@ a:hover{
     width:35vw;
 }
 
+.card:hover{
+    height:45vh;
+    width:38vw;
+}
+
 .cardImage{
     width:100%;
 }
@@ -62,6 +67,13 @@ a:hover{
 .mobileCard{
     height:28vw;
     width:11.25vw;
+    margin-bottom:10vh;
+}
+
+.mobileCard:hover{
+    padding-top:2vh;
+    height:30vw;
+    width:12.25vw;
 }
 
 .mobileCardImage{

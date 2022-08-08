@@ -4,6 +4,11 @@
     align-items: center;
 }
 
+.title{
+    margin-top: 5vh;
+    color:#009182;
+}
+
 .textContainer{
     margin-top:1vh;
     margin-left: 1vw;

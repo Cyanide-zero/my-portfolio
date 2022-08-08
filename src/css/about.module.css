@@ -2,6 +2,8 @@
     width: 100vw;
     display: flex;
     align-items: center;
+    background-color:#0c0c0c;
+    justify-content: center;
 }
 
 .title{

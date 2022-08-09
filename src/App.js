@@ -14,7 +14,7 @@ const anchors = ["Hi!", "About", "Education", "Work","Web", "Mobile"];
 const App = () => (
   <ReactFullpage
     anchors={anchors}
-    
+    scrollingSpeed={1000}
     navigation
     navigationTooltips={anchors}
     sectionsColor={["#0c0c0c","#009182","#0c0c0c", "#0c0c0c","#0c0c0c", "#0c0c0c",  ]}

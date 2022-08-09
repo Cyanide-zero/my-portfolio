@@ -1,9 +1,11 @@
 .container{
+    height:100vh;
     display: flex;
     flex-direction: column;
     background-color: #0c0c0c;
     color:rgb(204, 203, 203);
     align-items: center;
+    justify-content: center;
 }
 
 .title{
@@ -39,4 +41,8 @@
 .workContainer{
     display: flex;
     align-items: center;
+}
+
+.workContent{
+    text-align: left;
 }

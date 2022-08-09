@@ -27,7 +27,7 @@ const App = () => (
       return (
         <div>
           <div className="section"><TextChanger/></div>
-          <div className="section" style={{height:'100vh'}}><h3>TEKA LANG DI PA TAPOS</h3><h3>BASTA ABOUT PAGE TO</h3></div>
+          <div className="section" style={{height:'100vh'}}><About/></div>
           <div className="section"><Education/></div>
           <div className="section"><Work/></div>
           <div className="section"><WebPortfolio/></div>

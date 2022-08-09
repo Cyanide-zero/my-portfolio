@@ -30,3 +30,9 @@
     margin-right:8vw;
     margin-left: 8vw;
 }
+
+.placeHolder{
+    font-size:40pt;
+    color:#009182;
+    font-weight: bolder;
+}

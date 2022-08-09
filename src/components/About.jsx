@@ -5,7 +5,7 @@ export default function About(){
     
     return(
         <div className={AboutCSS.container}>
-            <p className={AboutCSS.title}>WAIT LANG DI PA TAPOS!!!!</p>
+            <p className={AboutCSS.placeHolder}>WAIT LANG DI PA TAPOS!!!!</p>
         </div>
     )
 

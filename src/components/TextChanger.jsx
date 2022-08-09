@@ -30,7 +30,7 @@ export default function TextChanger(){
             {
                 rText === "ジョブン"?
                 <p style={{
-                    fontSize:'40pt'
+                    fontSize:'100pt'
                 }}>{rText}</p>
                 : <p className={TextChange.rText}>{rText}</p>
 

@@ -1,7 +1,7 @@
 import React from 'react';
-import PortCSS from '../css/portfolio.module.css';
+import PortCSS from '../css/webportfolio.module.css';
 
-export default function Portfolio (){
+export default function WebPortfolio (){
     return(
         <div className={PortCSS.container}>
             <h1 className={PortCSS.title}>Sample Projects</h1>

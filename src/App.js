@@ -6,17 +6,18 @@ import TextChanger from './components/TextChanger';
 import About from './components/About';
 import Education from './components/Education';
 import Work from './components/Work';
-import Portfolio from './components/Portfolio';
+import WebPortfolio from './components/WebPortfolio';
+import MobilePortfolio from './components/MobilePortfolio';
 
-const anchors = ["Hi!", "About", "Education", "Web", "Mobile"];
+const anchors = ["Hi!", "About", "Education", "Work","Web", "Mobile"];
 
 const App = () => (
   <ReactFullpage
     anchors={anchors}
+    
     navigation
     navigationTooltips={anchors}
-    navigat
-    sectionsColor={["#7fff00","#009182","#0c0c0c", "#0c0c0c", "#c4c4c4" ]}
+    sectionsColor={["#0c0c0c","#009182","#0c0c0c", "#0c0c0c","#0c0c0c", "#0c0c0c",  ]}
     onLeave={(origin, destination, direction) => {
       console.log("onLeave event", { origin, destination, direction });
     }}
@@ -27,9 +28,10 @@ const App = () => (
         <div>
           <div className="section"><TextChanger/></div>
           <div className="section" style={{height:'100vh'}}><h3>TEKA LANG DI PA TAPOS</h3><h3>BASTA ABOUT PAGE TO</h3></div>
-          <div className="section" style={{height:'100vh'}}><h3>DITO YUNG EDUCATIONAL SHITS</h3></div>
-          <div className="section"><Portfolio/></div>
-          <div className="section" style={{height:'100vh'}}><h3>Section 5</h3></div>
+          <div className="section"><Education/></div>
+          <div className="section"><Work/></div>
+          <div className="section"><WebPortfolio/></div>
+          <div className="section" style={{height:'100vh'}}><MobilePortfolio/></div>
         </div>
       );
     }}

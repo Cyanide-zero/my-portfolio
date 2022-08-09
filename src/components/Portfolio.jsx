@@ -26,7 +26,7 @@ export default function Portfolio (){
                         <p className={PortCSS.cardName}>Client Management System</p>
                     </a>
                 </div>
-            <h1 className={PortCSS.title}>Mobile Projects</h1>
+            {/* <h1 className={PortCSS.title}>Mobile Projects</h1>
             <p className={PortCSS.note}>*Please note that in this section, clicking a card will redirect you to the download page of the APK file.</p>
                 <div className={PortCSS.categories}>
                     <a href="https://exp-shell-app-assets.s3.us-west-1.amazonaws.com/android/%40cyanidezero/lalabaApp-7ccde6bc09524fd891ec4707766d136e-signed.apk" target="_blank" className={PortCSS.mobileCard}>
@@ -40,7 +40,7 @@ export default function Portfolio (){
                 </div>
                 <p className={PortCSS.note}>
                    TEKA LANG DI PA TO TAPOS HAHAHAHA 
-                </p>
+                </p> */}
 
         </div>
     )

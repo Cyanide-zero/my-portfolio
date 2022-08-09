@@ -1,9 +1,5 @@
-.title{
-    margin-top: 5vh;
-    color:#009182;
-}
-
 .container{
+    margin:0;
     flex-direction: column;
     width: 100vw;
     height:100vh;

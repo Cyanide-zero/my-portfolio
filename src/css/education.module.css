@@ -5,7 +5,7 @@
 
 .container{
     flex-direction: column;
-    height: 100vh;
+    height: 100%;
     width: 100%;
     display: flex;
     align-items: center;
@@ -88,7 +88,6 @@ html {
   background-color: #1e1f22;
   color: white;
   border-radius: 10px;
-  transition: 0.6s;
 }
 .timeline ul li:last-child {
   margin-bottom: 0;
@@ -124,7 +123,6 @@ html {
   .timeline ul li {
     width: 50%;
     position: relative;
-    transition: 0.6s;
   }
   .timeline ul li:nth-child(odd) {
     float: left;

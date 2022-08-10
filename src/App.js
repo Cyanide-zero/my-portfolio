@@ -13,6 +13,8 @@ const anchors = ["Hi!", "About", "Education", "Work","Web", "Mobile"];
 
 const App = () => (
   <ReactFullpage
+    //loopBottom={true}
+    // loopTop={true}
     anchors={anchors}
     scrollingSpeed={1000}
     navigation

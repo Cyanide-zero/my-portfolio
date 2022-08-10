@@ -19,7 +19,7 @@ export default function TextChanger(){
         const interval = setInterval(()=>{
             change();
             setRText(arr[ind])
-        }, 1000)
+        }, 2000)
 
         return () => clearInterval(interval);
     },[])

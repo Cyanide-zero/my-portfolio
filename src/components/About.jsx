@@ -5,13 +5,23 @@ export default function About(){
     
     return(
         <div className={AboutCSS.container}>
-            <p className={AboutCSS.placeHolder}>WAIT LANG DI PA TAPOS!!!!</p>
+           <div className={AboutCSS.slideContainer}> 
+                {/* <p className={AboutCSS.placeHolder}>WAIT LANG DI PA TAPOS!!!!</p> */}
+                <div className={AboutCSS.slideContent}>
+                    <p className={AboutCSS.slideText}>Hi! I am</p>
+                    <div className={AboutCSS.stack} style={{"--stacks": 3}}>
+                        <span style={{"--index": 0}}>JOVEN</span>
+                        <span style={{"--index": 1}}>JOVEN</span>
+                        <span style={{"--index": 2}}>JOVEN</span>
+                    </div>
+                    <p className={AboutCSS.right}>Sabangan</p><br/><br/><br/>
+                    <p className={AboutCSS.slideText}>"Kung kaya ng iba, pagawa mo sa kanila."</p>
+                </div>
+                <img className={AboutCSS.image} src={require('../assets/images/jovendpr.png')}/>
+           </div>
         </div>
+        
     )
 
-    {/* <div className={AboutCSS.textContainer}>
-                <p>Hi! I am <b>Joven R. Sabangan</b>, 
-                a Computer Engineering Student from the Polythechnic University of the Philippines</p>
-            </div>
-            <img className={AboutCSS.image} src={require('../assets/images/jovendpr.jpg')}/> */}
+    
 }

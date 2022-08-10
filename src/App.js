@@ -28,7 +28,7 @@ const App = () => (
         <div>
           <div className="section"><TextChanger/></div>
           <div className="section" style={{height:'100vh'}}><About/></div>
-          <div className="section"><Education/></div>
+          <div className="section" style={{height:'100vh'}}><Education/></div>
           <div className="section"><Work/></div>
           <div className="section"><WebPortfolio/></div>
           <div className="section" style={{height:'100vh'}}><MobilePortfolio/></div>

@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/static/css/main.dd911281.css",
-    "main.js": "/static/js/main.417eaca9.js",
+    "main.css": "/static/css/main.3b4a9032.css",
+    "main.js": "/static/js/main.b46ed52b.js",
     "static/js/787.e47844a4.chunk.js": "/static/js/787.e47844a4.chunk.js",
+    "static/media/jovendpr.png": "/static/media/jovendpr.2c7baa79dfc57268da6d.png",
     "static/media/puplogo.png": "/static/media/puplogo.96c679fe22035407d1de.png",
     "static/media/mgandramshan.jpg": "/static/media/mgandramshan.15b2a045e0f7abadd661.jpg",
     "static/media/silverwolves.jpg": "/static/media/silverwolves.8606c33d185033c18c7c.jpg",
@@ -13,12 +14,12 @@
     "static/media/lalabaApp.jpg": "/static/media/lalabaApp.315d9d80381fdc21bd27.jpg",
     "static/media/clahslogo.jpg": "/static/media/clahslogo.6438192b389a40c09aa5.jpg",
     "index.html": "/index.html",
-    "main.dd911281.css.map": "/static/css/main.dd911281.css.map",
-    "main.417eaca9.js.map": "/static/js/main.417eaca9.js.map",
+    "main.3b4a9032.css.map": "/static/css/main.3b4a9032.css.map",
+    "main.b46ed52b.js.map": "/static/js/main.b46ed52b.js.map",
     "787.e47844a4.chunk.js.map": "/static/js/787.e47844a4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dd911281.css",
-    "static/js/main.417eaca9.js"
+    "static/css/main.3b4a9032.css",
+    "static/js/main.b46ed52b.js"
   ]
 }

@@ -15,7 +15,7 @@ export default function About(){
                         <span style={{"--index": 2}}>JOVEN</span>
                     </div>
                     <p className={AboutCSS.right}>Sabangan</p><br/><br/><br/>
-                    <p className={AboutCSS.slideText}>"Kung kaya ng iba, pagawa mo sa kanila."</p>
+                    <p className={AboutCSS.slideText}>"Di pa po 'to tapos, pasensya na po."</p>
                 </div>
                 <img className={AboutCSS.image} src={require('../assets/images/jovendpr.png')}/>
            </div>

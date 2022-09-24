@@ -22,6 +22,10 @@ h3 {
   
 }
 
+.fp-arrow{
+  display: none;
+}
+
 .fp-section {
   text-align: center;
 }

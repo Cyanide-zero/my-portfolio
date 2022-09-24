@@ -1,3 +1,4 @@
+
 .container{
     width: 100vw;
     height:100vh;
@@ -9,7 +10,7 @@
 
 .image{
     height:30vw;
-    
+    max-width:30vw;
 }
 
 * {
@@ -34,6 +35,10 @@ body {
   justify-content: center;
   align-items: center;
   background: var(--background);
+}
+
+.carouselContainer{
+  min-height:100vh
 }
 
 .container {

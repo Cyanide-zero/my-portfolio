@@ -46,3 +46,7 @@
 .workContent{
     text-align: left;
 }
+
+.mainContainer{
+    display:flex;
+}

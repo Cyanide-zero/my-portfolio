@@ -8,8 +8,9 @@ import Education from './components/Education';
 import Work from './components/Work';
 import WebPortfolio from './components/WebPortfolio';
 import MobilePortfolio from './components/MobilePortfolio';
+import Fcc from './components/Fcc';
 
-const anchors = ["Hi!", "About", "Education", "Work","Web", "Mobile"];
+const anchors = ["Hi!", "About", "Education", "Work","Web", "Mobile", "FCC-Frontend", "FCC-API"];
 
 const App = () => (
   <ReactFullpage
@@ -19,7 +20,7 @@ const App = () => (
     scrollingSpeed={1000}
     navigation
     navigationTooltips={anchors}
-    sectionsColor={["#0c0c0c","#009182","#0c0c0c", "#0c0c0c","#0c0c0c", "#0c0c0c",  ]}
+    sectionsColor={["#0c0c0c","#009182","#0c0c0c", "#0c0c0c","#0c0c0c", "#0c0c0c", "#0c0c0c", "#0c0c0c",  ]}
     onLeave={(origin, destination, direction) => {
       console.log("onLeave event", { origin, destination, direction });
     }}
@@ -34,6 +35,7 @@ const App = () => (
           <div className="section"><Work/></div>
           <div className="section"><WebPortfolio/></div>
           <div className="section" style={{height:'100vh'}}><MobilePortfolio/></div>
+          <div className="section" style={{height:'100vh'}}><Fcc/></div>
         </div>
       );
     }}

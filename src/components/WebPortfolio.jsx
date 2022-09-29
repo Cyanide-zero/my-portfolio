@@ -15,6 +15,8 @@ export default function WebPortfolio (){
                     <p className={PortCSS.cardName}>MG and Ramshan Ordering</p>
                 </a>
             </div>
+
+            
             <h1 className={PortCSS.title}>Collaborations</h1>
                 <div className={PortCSS.categories}>
                     <a href="https://mg-and-ramshan.netlify.app/" target="_blank" className={PortCSS.card}>

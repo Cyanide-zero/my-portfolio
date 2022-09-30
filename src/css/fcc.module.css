@@ -27,10 +27,25 @@
 }
 
 .linkContainer{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     text-decoration: none;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    color:#009182;
+    border-radius: 10px;
+    transition:0.5s
+}
+
+.linkContainer:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#00332e;
+    color:white;
+    transition:0.5s
 }
 
 .linkImage{

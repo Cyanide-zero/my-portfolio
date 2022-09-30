@@ -11,7 +11,7 @@ import MobilePortfolio from './components/MobilePortfolio';
 import Fcc from './components/Fcc';
 import ContactMe from './components/ContactMe'
 
-const anchors = ["Hi!", "About", "Education", "Work","Web", "Mobile", "FCC-Frontend", "Contact"];
+const anchors = ["Hi!", "About", "Education", "Work","Web", "Mobile", "Contact", "freeCodeCamp"];
 
 const App = () => (
   <ReactFullpage

@@ -45,6 +45,13 @@ const RenderItems = () => {
                                 <p className={FCC.linkText}>Pomodoro Clock</p>
                                 <img src={require('../assets/images/pomodoro.jpg')} className={FCC.linkImage}/>
                             </a>
+                            <a href="https://www.freecodecamp.org/certification/Cyanide-zero/front-end-development-libraries" 
+                                target="_blank" 
+                                className={FCC.linkContainer}
+                                style={{marginTop:'1vh'}}
+                            >
+                                <p className={FCC.linkText}>Front End Libraries Certificate</p>
+                            </a>
                         </div>
                         <div className={FCC.contentContainer}>
                             <a href="https://boilerplate-project-timestamp.cyanide-zero.repl.co/" target="_blank" className={FCC.linkContainer}>
@@ -66,6 +73,9 @@ const RenderItems = () => {
                             <a href="https://boilerplate-project-filemetadata.cyanide-zero.repl.co/" target="_blank" className={FCC.linkContainer}>
                                 <p className={FCC.linkText}>File Metadata Microtransaction</p>
                                 <img src={require('../assets/images/metadata.jpg')} className={FCC.linkImage}/>
+                            </a>
+                            <a href="https://www.freecodecamp.org/certification/Cyanide-zero/back-end-development-and-apis" target="_blank" className={FCC.linkContainer} style={{marginTop:'1vh'}}>
+                                <p className={FCC.linkText}>Back End Development and APIs Certificate</p>
                             </a>
                         </div>
                     </div>

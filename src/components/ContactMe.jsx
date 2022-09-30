@@ -8,7 +8,19 @@ const ContactMe = () => {
   const [email, setEmail] = React.useState('');
   const [name, setName] = React.useState('');
   const [message, setMessage] = React.useState('');
-    
+  
+  const [windowWidth, setWindowWidth] = React.useState(window.innerWidth);
+
+  const detectWidth = () =>{
+    setWindowWidth(window.innerWidth)
+  }
+
+  React.useEffect(()=>{
+    detectWidth();
+    console.log(windowWidth);
+    console.log(window.innerWidth)
+  })
+
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -24,6 +36,8 @@ const ContactMe = () => {
             icon: 'error',
             title: 'Oops...',
             text: 'Please fill out all the fields.',
+            width:`${windowWidth <= 1100? '80%' : '40%' }`,
+            height:`${windowWidth <= 1100? '50%' : '40%' }`,
         })
         e.target.reset();
     }else if(!emailRegex.test(form.current[2].value) && !urlRegex.test(form.current[2].value) ){
@@ -32,6 +46,8 @@ const ContactMe = () => {
             icon: 'error',
             title: 'You actin\' a lil sus 🤔',
             text: 'Invalid Email or URL.',
+            width:`${windowWidth <= 1100? '80%' : '40%' }`,
+            height:`${windowWidth <= 1100? '50%' : '40%' }`,
         })
         //e.target.reset();
         
@@ -41,6 +57,8 @@ const ContactMe = () => {
             icon: 'success',
             title: 'Message Sent!',
             text: 'Thank you for contacting me. Have a nice day!',
+            width:`${windowWidth <= 1100? '80%' : '40%' }`,
+            height:`${windowWidth <= 1100? '50%' : '40%' }`,
         })
         emailjs.sendForm('service_wk2cp6p', 'template_r5ufm84', form.current, 'zJGE6ATFSLG6kM-xV')
         .then((result) => {

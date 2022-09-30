@@ -36,8 +36,8 @@ const App = () => (
           <div className="section"><Work/></div>
           <div className="section"><WebPortfolio/></div>
           <div className="section" style={{height:'100vh'}}><MobilePortfolio/></div>
-          <div className="section" style={{height:'100vh'}}><Fcc/></div>
           <div className="section" style={{height:'100vh', color:'white'}}><ContactMe/></div>
+          <div className="section" style={{height:'100vh'}}><Fcc/></div>
         </div>
       );
     }}

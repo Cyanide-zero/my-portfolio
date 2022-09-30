@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.7c61a15d.css",
-    "main.js": "/static/js/main.8a3d6151.js",
+    "main.css": "/static/css/main.e32443f3.css",
+    "main.js": "/static/js/main.c2bd5990.js",
     "static/js/787.e47844a4.chunk.js": "/static/js/787.e47844a4.chunk.js",
     "static/media/jovendpr.png": "/static/media/jovendpr.2c7baa79dfc57268da6d.png",
     "static/media/puplogo.png": "/static/media/puplogo.96c679fe22035407d1de.png",
@@ -19,17 +19,18 @@
     "static/media/pomodoro.jpg": "/static/media/pomodoro.26908c565d5a3207d89c.jpg",
     "static/media/quotes.jpg": "/static/media/quotes.18e1dc8e4e2071e9b16d.jpg",
     "static/media/metadata.jpg": "/static/media/metadata.5aef633485219155e6c4.jpg",
+    "static/media/jt.jpg": "/static/media/jt.440cc7f614d1ac2d2ef8.jpg",
     "static/media/url.jpg": "/static/media/url.bfddf0dbb797b64255c2.jpg",
     "static/media/calculator.jpg": "/static/media/calculator.f0eefa81f3248374f574.jpg",
     "static/media/drummachine.jpg": "/static/media/drummachine.2857913ff13b224595c6.jpg",
     "static/media/clahslogo.jpg": "/static/media/clahslogo.6438192b389a40c09aa5.jpg",
     "index.html": "/index.html",
-    "main.7c61a15d.css.map": "/static/css/main.7c61a15d.css.map",
-    "main.8a3d6151.js.map": "/static/js/main.8a3d6151.js.map",
+    "main.e32443f3.css.map": "/static/css/main.e32443f3.css.map",
+    "main.c2bd5990.js.map": "/static/js/main.c2bd5990.js.map",
     "787.e47844a4.chunk.js.map": "/static/js/787.e47844a4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7c61a15d.css",
-    "static/js/main.8a3d6151.js"
+    "static/css/main.e32443f3.css",
+    "static/js/main.c2bd5990.js"
   ]
 }

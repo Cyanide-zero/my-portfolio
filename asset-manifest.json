@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.css": "/static/css/main.b6afa78b.css",
-    "main.js": "/static/js/main.156911b1.js",
+    "main.css": "/static/css/main.5a2a7a55.css",
+    "main.js": "/static/js/main.6ece5ee2.js",
     "static/js/787.e47844a4.chunk.js": "/static/js/787.e47844a4.chunk.js",
     "static/media/jovendpr.png": "/static/media/jovendpr.2c7baa79dfc57268da6d.png",
     "static/media/puplogo.png": "/static/media/puplogo.96c679fe22035407d1de.png",
     "static/media/mgandramshan.jpg": "/static/media/mgandramshan.15b2a045e0f7abadd661.jpg",
+    "static/media/waddles-no-right.png": "/static/media/waddles-no-right.6ccfa79d8096d88a0be6.png",
     "static/media/mdpreview.jpg": "/static/media/mdpreview.35e8ffa452cf65c2ddc0.jpg",
     "static/media/silverwolves.jpg": "/static/media/silverwolves.8606c33d185033c18c7c.jpg",
     "static/media/clientsystem.jpg": "/static/media/clientsystem.0c984f50e0d1f41065f2.jpg",
@@ -25,12 +26,12 @@
     "static/media/drummachine.jpg": "/static/media/drummachine.2857913ff13b224595c6.jpg",
     "static/media/clahslogo.jpg": "/static/media/clahslogo.6438192b389a40c09aa5.jpg",
     "index.html": "/index.html",
-    "main.b6afa78b.css.map": "/static/css/main.b6afa78b.css.map",
-    "main.156911b1.js.map": "/static/js/main.156911b1.js.map",
+    "main.5a2a7a55.css.map": "/static/css/main.5a2a7a55.css.map",
+    "main.6ece5ee2.js.map": "/static/js/main.6ece5ee2.js.map",
     "787.e47844a4.chunk.js.map": "/static/js/787.e47844a4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b6afa78b.css",
-    "static/js/main.156911b1.js"
+    "static/css/main.5a2a7a55.css",
+    "static/js/main.6ece5ee2.js"
   ]
 }

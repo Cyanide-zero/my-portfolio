@@ -3,7 +3,7 @@ import Edu from '../css/education.module.css';
 
 export default function Education () {
     return(
-        <div classNameName={Edu.container}>
+        <div className={Edu.container}>
             <h1 className={Edu.title}>Educational Background</h1>
             <div className={Edu.timeline}>
                 <ul>

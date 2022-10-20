@@ -85,6 +85,38 @@ const RenderItems = () => {
 
 export default function Fcc(){
 
+    // React.useEffect(()=>{
+    //     document.addEventListener('mousemove',(e)=>{
+    //         console.log(e);
+    //     })
+    // })
+    document.addEventListener('mousemove', (e)=>{
+        //console.log(e.clientX, e.clientY);
+        const mouseX = e.clientX;
+        const mouseY = e.clientY;
+
+        const anchor = document.getElementById('anchor');
+        const rekt = anchor.getBoundingClientRect();
+        const anchorX = rekt.left + rekt.width / 2;
+        const anchorY = rekt.top + rekt.height / 2;
+
+        const angleDeg = angle(mouseX, mouseY, anchorX, anchorY);
+        console.log(angleDeg);
+
+        const eyes = document.querySelectorAll('.eye');
+        eyes.forEach(eye => {
+            eye.style.transform = `rotate(${90 + angleDeg}deg)`;
+            anchor.style.filter = `hue-rotate(${angleDeg}deg)`
+        })
+    });
+
+    function angle(cx, cy, ex, ey){
+        const dy = ey-cy;
+        const dx = ex-cx;
+        const rad = Math.atan2(dy,dx);
+        const deg = rad * 180/ Math.PI;
+        return deg
+    }
     const [prof, setProf] = React.useState(false);
     const [code, setCode] = React.useState('');
 
@@ -93,6 +125,7 @@ export default function Fcc(){
         console.log("enter");
         setProf(true)
     }
+
     useKey("Enter", handleEnter);
 
     const handleSubmit = () => {
@@ -117,10 +150,21 @@ export default function Fcc(){
                 </form>
 
                 
-                : <p style={{
-                    fontSize:'40pt',
-                    color:'#009182'
-                }}>Nothing to see here...</p>
+                : <div>
+                    <img id="anchor" src={require('../assets/images/waddles-no-right.png')}
+                        style={{height:'100vh', width:'100vw'}}
+                    />
+                    <div id="eyes" className={FCC.eyes}>
+                        <img className="eye" src={require('../assets/images/eye.png')} style={{position:'absolute',top:'32vh',left:'39.5vw'}}/>
+                        <img className="eye" src={require('../assets/images/eye.png')} style={{position:'absolute',top:'32vh',left:'56.5vw'}}/>
+                        {/* <img class={FCC.eye} src={require('../assets/images/eye.png')}/>
+                        <img class={FCC.eye} src={require('../assets/images/eye.png')}/> */}
+                    </div>
+                    {/* <p style={{
+                        fontSize:'40pt',
+                        color:'#009182'
+                    }}>Nothing to see here...</p> */}
+                </div>
             }
         </div>
     )

@@ -1,0 +1,121 @@
+.container{
+    display: flex;
+    width:100vw;
+    height:100vh;
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-evenly;
+}
+
+.title{
+    color:#009182;
+}
+
+.categories{
+    display:flex;
+    justify-content: space-evenly;
+    width:100vw;
+    height:30vh;
+}
+
+.card{
+    text-decoration: none;
+    color:#009182;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    text-align: center;
+    transition:0.6s
+}
+
+.card:hover{
+    background-color: #474747;
+    text-decoration: none;
+    color:#009182;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    text-align: center;
+    transition:0.6s
+}
+
+.cardName{
+    font-size:2vh;
+    margin-top:.5vh;
+    margin-bottom: 1vh;
+    font-weight:bold;
+}
+
+.card{
+    height:27vh;
+    width:22.5vw;
+    background-color:#c0c0c0;
+}
+
+.card:hover{
+    height:28.5vh;
+    width:24vw;
+    color:white;
+    padding:1vh
+}
+
+.cardImage{
+    width:100%;
+    margin:0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+@media screen and (max-width:1100px){
+    .container{
+        width:100vw;
+        height:90vh;
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        justify-content: space-evenly;
+    }
+    
+    .categories{
+        display:flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        width:100vw;
+        height:100%;
+    }
+
+    .title{
+        margin-top: 2vh;
+    }
+
+    .card{
+        text-decoration: none;
+        color:#009182;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 10px;
+        text-align: center;
+        transition:0.6s
+    }
+
+    .cardImage{
+        width:100%;
+        height:80%;
+        margin:0;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+
+    .card{
+        height:17vh;
+        width:60vw;
+        background-color:#c0c0c0;
+        margin-top:1vh;
+    }
+    
+    .card:hover{
+        height:17vh;
+        width:61vw;
+        color:white;
+        padding:1vh
+    }
+}
+

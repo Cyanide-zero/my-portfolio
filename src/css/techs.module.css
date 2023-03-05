@@ -1,0 +1,23 @@
+.container{
+    margin:0;
+    flex-direction: column;
+    width: 100vw;
+    height:100vh;
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: space-evenly; */
+    padding: 100px 0;
+    background-color: #111;
+    /* background-color: #0c0c0c; */
+}
+
+.title{
+    margin-bottom: 5vh;
+    color:#009182;
+}
+
+.row{
+    margin-top:auto;
+    margin-bottom: auto;
+    width: 100vw;
+}

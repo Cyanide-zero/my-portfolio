@@ -1,0 +1,198 @@
+.container{
+    margin:0;
+    flex-direction: column;
+    width: 100vw;
+    height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 0;
+    background-color: #111;
+    /* background-color: #0c0c0c; */
+}
+
+.title{
+  margin-bottom: 5vh;
+  color:#009182;
+}
+
+.schoolContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0c0c0c;
+}
+
+.introContainer{
+    margin-left: 8vw;
+    margin-right:8vw;
+    width: 30vw;
+    height:20vw;
+    display: flex;
+    flex-direction: column;
+    /* padding: 2vw; */
+    justify-content: center;
+    color:rgb(204, 203, 203);
+    border-radius: 12px;
+    font-size: larger;
+}
+
+.introContainer:nth-child(2){
+    text-align: right;
+}
+
+.introContainer span{
+    color:#0c0c0c;
+}
+
+.introContainer span:hover{
+    color:#009182;
+    cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>🤣</text></svg>")
+        16 0,
+    auto;
+}
+
+.image{
+    border-radius:20vw;
+    width: 5vw;
+    height:5vw;
+    margin-right:8vw;
+    margin-left: 8vw;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Montserrat";
+}
+
+.schoolText{
+    font-size:14px
+}
+.timeline {
+  width: 100%;
+  height: auto;
+  max-width: 800px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.timeline ul {
+  list-style: none;
+}
+.timeline ul li {
+  padding: 20px;
+  background-color: #1e1f22;
+  color: white;
+  border-radius: 10px;
+}
+.timeline ul li:last-child {
+  margin-bottom: 0;
+}
+.timelineContent h1 {
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 30px;
+  margin-bottom: 10px;
+}
+.timelineContent p {
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 300;
+}
+.timelineContent .date {
+  font-size: 12px;
+  font-weight: 300;
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+}
+
+@media only screen and (min-width: 768px) {
+  .timeline:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 2px;
+    height: 100%;
+    background-color: gray;
+  }
+  .timeline ul li {
+    width: 50%;
+    position: relative;
+  }
+  .timeline ul li:nth-child(odd) {
+    float: left;
+    clear: right;
+    transform: translateX(-30px);
+    border-radius: 20px 0px 20px 20px;
+  }
+  .timeline ul li:nth-child(even) {
+    float: right;
+    clear: left;
+    transform: translateX(30px);
+    border-radius: 0px 20px 20px 20px;
+  }
+  .timeline ul li::before {
+    content: "";
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: gray;
+    top: 0px;
+  }
+  .timeline ul li:nth-child(odd)::before {
+    transform: translate(50%, -50%);
+    right: -30px;
+  }
+  .timeline ul li:nth-child(even)::before {
+    transform: translate(-50%, -50%);
+    left: -30px;
+  }
+  .timelineContent .date {
+    position: absolute;
+    top: -30px;
+  }
+  .timeline ul li:hover::before {
+    background-color: aqua;
+    transition:0.6s;
+    cursor: pointer;
+  }
+}
+
+@media screen and (max-width:1100px){
+  .timelineContent .date {
+    position: absolute;
+    top: -40px;
+    font-size: 20pt;
+  }
+
+  .timeline ul li {
+    width: 50%;
+    height:15vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .timelineContent .schoolText{
+    margin-top:2vh;
+    font-size:20pt
+  }
+
+  .image{
+    border-radius:20vw;
+    width: 5vh;
+    height:5vh;
+    margin-right:8vw;
+    margin-left: 8vw;
+}
+  
+}

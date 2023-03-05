@@ -1,0 +1,23 @@
+{
+  "name": "web-resume",
+  "version": "0.1.0",
+  "homepage": "https://jovensabangan.me/",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "@emailjs/browser": "^3.7.0",
+    "@fullpage/react-fullpage": "^0.1.27",
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0",
+    "sweetalert2": "^11.4.35",
+    "web-vitals": "^2.1.4"
+  },
+  "devDependencies": {
+    "vite": "^1.0.0-rc.13",
+    "vite-plugin-react": "^4.0.0",
+    "gh-pages": "^4.0.0"
+  }
+}

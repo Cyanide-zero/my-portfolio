@@ -10,7 +10,7 @@ import WebPortfolio from './components/WebPortfolio';
 import MobilePortfolio from './components/MobilePortfolio';
 import Fcc from './components/Fcc';
 import ContactMe from './components/ContactMe';
-//import Techs from "./components/Techs";
+import Techs from "./components/Techs";
 
 const anchors = ["Hi!", "About", "Education", "Work","Web", "Mobile", "Contact", "Technologies","freeCodeCamp"];
 
@@ -38,7 +38,7 @@ const App = () => (
           <div className="section"><WebPortfolio/></div>
           <div className="section" style={{height:'100vh'}}><MobilePortfolio/></div>
           <div className="section" style={{height:'100vh', color:'white'}}><ContactMe/></div>
-          {/* <div className="section" style={{height:'100vh'}}><Techs/></div> */}
+          <div className="section" style={{height:'100vh'}}><Techs/></div>
           <div className="section" style={{height:'100vh'}}><Fcc/></div>
         </div>
       );

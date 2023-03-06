@@ -13,28 +13,20 @@
     color:#009182;
 }
 
-.image1{
+.image{
     align-self: flex-end;
     border-radius:2vw;
-    width: 15vw;
-    margin-top:4vw;
-    margin-right:5vw;
-    margin-left: 16vw;
-}
-
-.image2{
-    align-self: flex-end;
-    border-radius:2vw;
-    width: 15vw;
-    height: 15vw;
-    margin-top:4vw;
     margin-right:5vw;
     margin-left: 16vw;
 }
 
 
 .contentContainer{
+    height:100vh;
     width:100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
     margin-bottom:10vh;
 }
 

@@ -1,111 +1,111 @@
-.container{
-    width:100vw;
-    height:100vh;
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  color: #009182;
+  margin-top: 5vh;
+}
+
+.categories {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100vw;
+  max-height: 30vh;
+  margin-top: 10vh;
+}
+
+.mobileCard {
+  text-decoration: none;
+  color: #009182;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
+  text-align: center;
+  transition: 0.6s;
+}
+
+.mobileCard:hover {
+  background-color: #474747;
+  text-decoration: none;
+  color: #009182;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
+  text-align: center;
+  transition: 0.6s;
+}
+
+.note {
+  font-weight: bold;
+  text-align: left;
+  margin-top: 5vh;
+  color: #c0c0c0;
+}
+
+.mobileCard {
+  height: 59vh;
+  width: 25vh;
+  background-color: #c0c0c0;
+  padding-top: 1vh;
+}
+
+.mobileCard:hover {
+  padding-top: 2vh;
+  height: 60vh;
+  width: 27vh;
+  color: white;
+}
+
+.mobileCardImage {
+  max-width: 100%;
+  height: 25vw;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.mobileCardName {
+  font-size: 2vh;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 1100px) {
+  .title {
+    font-size: 12pt;
+  }
+  .note {
+    font-size: 10pt;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 5vh;
+    color: #c0c0c0;
+  }
+
+  .categories {
     display: flex;
     flex-direction: column;
-    align-items:center;
-}
+    align-items: center;
+    height: 60vh;
+    width: 100vw;
+    margin-top: 20vh;
+  }
 
-.title{
-    color:#009182;
-    margin-top:5vh
-}
+  .mobileCard {
+    height: 59vh;
+    width: 20vh;
+    background-color: #c0c0c0;
+    padding-top: 1vh;
+    margin-top: 1vh;
+  }
 
-.categories{
-    display:flex;
-    justify-content: space-evenly;
-    width:100vw;
-    max-height:30vh;
-    margin-top: 10vh;
-}
-
-.mobileCard{
-    text-decoration: none;
-    color:#009182;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    border-radius: 10px;
-    text-align: center;
-    transition:0.6s
-}
-
-.mobileCard:hover{
-    background-color: #474747;
-    text-decoration: none;
-    color:#009182;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    border-radius: 10px;
-    text-align: center;
-    transition:0.6s
-}
-
-
-.note{
-    font-weight:bold;
-    text-align: left;
-    margin-top: 5vh;
-    color:#c0c0c0
-}
-
-.mobileCard{
-    height:59vh;
-    width:25vh;
-    background-color:#c0c0c0;
-    padding-top:1vh
-}
-
-.mobileCard:hover{
-    padding-top:2vh;
-    height:60vh;
-    width:27vh;
-    color:white
-}
-
-.mobileCardImage{
-    max-width:100%;
-    height:25vw;
+  .mobileCardImage {
+    max-width: 100%;
+    height: 25vw;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+  }
 }
-
-.mobileCardName{
-    font-size:2vh;
-    margin-top:1vh;
-    margin-bottom: 1vh;
-    font-weight:bold;
-}
-
-@media screen and (max-width:1100px) {
-    
-    .note{
-        font-size:20pt;
-        font-weight:bold;
-        text-align: center;
-        margin-top: 5vh;
-        color:#c0c0c0
-    }
-
-    .categories{
-        display:flex;
-        flex-direction: column;
-        align-items: center;
-        height:60vh;
-        width:100vw;
-        margin-top: 20vh;
-    }
-
-    .mobileCard{
-        height:59vh;
-        width:20vh;
-        background-color:#c0c0c0;
-        padding-top:1vh;
-        margin-top:1vh;
-    }
-
-    .mobileCardImage{
-        max-width:100%;
-        height:25vw;
-        border-top-left-radius: 10px;
-        border-top-right-radius: 10px;
-    }
-}
-

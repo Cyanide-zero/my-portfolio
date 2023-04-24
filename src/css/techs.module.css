@@ -34,3 +34,13 @@
   fill: #009182;
   cursor: pointer;
 }
+
+@media screen and (max-width: 1100px) {
+  .title {
+    font-size: 12pt;
+  }
+  .svg-class-name {
+    height: 50px;
+    width: 50px;
+  }
+}

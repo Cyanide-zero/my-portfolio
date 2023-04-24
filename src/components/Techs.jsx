@@ -53,8 +53,13 @@ export default function Techs() {
               src={icon}
               className={style.icons}
               beforeInjection={(svg) => {
-                svg.classList.add("svg-class-name");
-                svg.setAttribute("style", "width: 100px;height:100px;");
+                if (window.innerWidth < 1100) {
+                  svg.classList.add("svg-class-name");
+                  svg.setAttribute("style", "width: 35px;height:35px;");
+                } else {
+                  svg.classList.add("svg-class-name");
+                  svg.setAttribute("style", "width: 100px;height:100px;");
+                }
               }}
             />
           );
@@ -67,8 +72,13 @@ export default function Techs() {
               src={icon}
               className={style.icons}
               beforeInjection={(svg) => {
-                svg.classList.add("svg-class-name");
-                svg.setAttribute("style", "width: 100px;height:100px;");
+                if (window.innerWidth < 1100) {
+                  svg.classList.add("svg-class-name");
+                  svg.setAttribute("style", "width: 35px;height:35px;");
+                } else {
+                  svg.classList.add("svg-class-name");
+                  svg.setAttribute("style", "width: 100px;height:100px;");
+                }
               }}
             />
           );
@@ -81,8 +91,13 @@ export default function Techs() {
               src={icon}
               className={style.icons}
               beforeInjection={(svg) => {
-                svg.classList.add("svg-class-name");
-                svg.setAttribute("style", "width: 100px;height:100px;");
+                if (window.innerWidth < 1100) {
+                  svg.classList.add("svg-class-name");
+                  svg.setAttribute("style", "width: 35px;height:35px;");
+                } else {
+                  svg.classList.add("svg-class-name");
+                  svg.setAttribute("style", "width: 100px;height:100px;");
+                }
               }}
             />
           );

@@ -1,12 +1,12 @@
 // @ts-check
-import reactPlugin from 'vite-plugin-react'
+import reactPlugin from "vite-plugin-react";
 
 /**
  * @type { import('vite').UserConfig }
  */
-const config = {
-  jsx: 'react',
-  plugins: [reactPlugin]
-}
 
-export default config
+export default {
+  base: "/my-portfolio/", // set the base path to the subdirectory of your GitHub Pages site
+  jsx: "react",
+  plugins: [reactPlugin],
+};

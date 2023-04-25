@@ -2,12 +2,11 @@
   "name": "web-resume",
   "version": "0.1.0",
   "homepage": "https://jovensabangan.me/",
-  "private": true,
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "vite build && gh-pages -d dist"
   },
   "dependencies": {
     "@emailjs/browser": "^3.7.0",

@@ -5,7 +5,7 @@ import { ReactSVG } from "react-svg";
 import html5 from "../assets/svgs/html5.svg";
 import css3 from "../assets/svgs/css3.svg";
 import js from "../assets/svgs/js.svg";
-import reactjs from "../assets/svgs/reactjs.svg";
+import reactjs from "../assets/svgs/react.svg";
 import vuejs from "../assets/svgs/vuejs.svg";
 import php from "../assets/svgs/php.svg";
 import mysql from "../assets/svgs/mysql.svg";
